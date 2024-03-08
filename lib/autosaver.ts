@@ -7,7 +7,7 @@ export class SessionStorageAutosaver implements Autosaver {
   id: string
 
   constructor(id: string) {
-    this.id = id;
+    this.id = "p5WidgetValue";
   }
 
   save(value: string) {
